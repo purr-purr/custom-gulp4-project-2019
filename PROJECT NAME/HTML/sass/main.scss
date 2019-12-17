@@ -1,0 +1,86 @@
+/*----------------------------------------------------------------------
+
+	MASTER STYLESHEET
+
+    Project:        Name
+    Version:        1.0
+    Author:         Anton Shaposhnikov / hesoyam666
+    Email:          support@keenthemes.com
+    Website:        https://666hesoyam.github.io/portfolio/
+
+-----------------------------------------------------------------------*/
+
+// Custom
+// =================================================================
+
+@import 'mixins'; // Mixins
+@import 'variables'; // Variables
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Hind, sans-serif;
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: Hind, sans-serif;
+	color: #a6a7aa;
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+
+a {
+	font-family: Hind, sans-serif;
+	color: #81848f;
+	outline: 0;
+}
+
+a:focus, a:hover, a:active {
+	outline: 0;
+	color: #999caa;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	font-family: Hind, sans-serif;
+	color: #515769;
+	line-height: 1.4;
+	margin: 0 0 15px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+:active,
+:focus {
+	outline: none;
+}
+
+
+h1 {
+	color: white;
+	transition: linear 1s;
+	display: inline;
+}
+
+body {
+	background-color: pink;
+}

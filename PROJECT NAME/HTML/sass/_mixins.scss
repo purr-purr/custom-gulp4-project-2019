@@ -1,0 +1,19 @@
+// --------------------------------------------------
+// Sizing
+// --------------------------------------------------
+
+// eg 2: @include size(100%, 1px); */
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+
+// --------------------------------------------------
+// RGBA Background Opacity
+// --------------------------------------------------
+
+// eg: @include bg-opacity($color-dark, .2);
+@mixin bg-opacity($color, $opacity: 0.3) {
+    background: rgba($color, $opacity);
+}

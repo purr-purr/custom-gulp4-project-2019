@@ -1,3 +1,9 @@
+// GET STARTED
+// 1. Install Gulp4 in "dev-tools"
+// Press in cmd: npm install --save-dev gulp
+// 2. For started works press in cmd "gulp" anc Ctrl+C for Stopping
+// ========================================================================
+
 var gulp = require('gulp');
 var rename = require('gulp-rename');
 var sass = require('gulp-sass');

@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Hind, sans-serif;
   color: #515769;
   line-height: 1.4;
-  margin: 0 0 15px; }
+  margin: 0; }
 
 h1 {
   font-size: 40px; }
@@ -56,10 +56,4 @@ h4 {
 :focus {
   outline: none; }
 
-h1 {
-  color: white;
-  transition: linear 1s;
-  display: inline; }
 
-body {
-  background-color: pink; }

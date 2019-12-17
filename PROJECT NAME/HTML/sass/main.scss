@@ -22,15 +22,7 @@ html {
 
 body {
 	font-family: Hind, sans-serif;
-}
-
-p {
-	font-size: 15px;
-	font-weight: 400;
-	font-family: Hind, sans-serif;
-	color: #a6a7aa;
-	line-height: 1.4;
-	margin-bottom: 15px;
+	background-color: pink;
 }
 
 a {
@@ -50,37 +42,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Hind, sans-serif;
 	color: #515769;
 	line-height: 1.4;
-	margin: 0 0 15px;
+	margin: 0;
 }
 
-h1 {
-	font-size: 40px;
-}
+h1 {font-size: 40px;}
 
-h2 {
-	font-size: 30px;
-}
+h2 {font-size: 30px;}
 
-h3 {
-	font-size: 22px;
-}
+h3 {font-size: 22px;}
 
-h4 {
-	font-size: 22px;
-}
+h4 {font-size: 22px;}
 
 :active,
-:focus {
-	outline: none;
-}
-
-
-h1 {
-	color: white;
-	transition: linear 1s;
-	display: inline;
-}
-
-body {
-	background-color: pink;
-}
+:focus {outline: none;}

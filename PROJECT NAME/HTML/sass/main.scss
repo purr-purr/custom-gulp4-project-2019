@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------------
+/*-------------------------------------------------------------
 
 	MASTER STYLESHEET
 
@@ -8,21 +8,25 @@
     Email:          support@keenthemes.com
     Website:        https://666hesoyam.github.io/portfolio/
 
------------------------------------------------------------------------*/
+--------------------------------------------------------------*/
 
 // Custom
-// =================================================================
+// ============================================================
 
 @import 'mixins'; // Mixins
 @import 'variables'; // Variables
 
-html {
-	overflow-x: hidden;
-}
+html {overflow-x: hidden; box-sizing: border-box;}
 
 body {
 	font-family: Hind, sans-serif;
 	background-color: pink;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
 }
 
 a {
@@ -46,12 +50,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {font-size: 40px;}
-
 h2 {font-size: 30px;}
-
 h3 {font-size: 22px;}
-
 h4 {font-size: 22px;}
 
 :active,
 :focus {outline: none;}
+
+// ===========//
+// MAIN STYLE //
+// ===========//
